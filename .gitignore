@@ -1,0 +1,18 @@
+# Build products
+MacPet/.build/
+build/
+*.app
+
+# SwiftPM
+.swiftpm/
+Package.resolved
+*.xcodeproj/
+
+# Xcode
+.DS_Store
+*.xcuserstate/
+xcuserdata/
+
+# Animations are downloaded separately via download-animations.sh (~47MB)
+# Uncomment the following line if you don't want to track animations in git:
+# MacPet/Sources/MacPet/Resources/Animations/*.webm
